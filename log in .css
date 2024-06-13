@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial,  sans-serif ,Helvetica
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+section{
+    width: 100%;
+    height: 400px;
+    padding: 10px 100px; 
+    background-color: rgb(12,12,12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section::before{
+    content: "";
+   /* margin-top: 480px;*/
+    width: 100%;
+    height: 360px;
+    background-image: url(bg-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.3;
+}
+.input{
+    position: relative;
+    width: 370px;
+    height: 340px;
+    border: 1px solid #5cd2b8;
+    padding: 7px 10px;  
+}
+.input .name{
+   margin-bottom: 20px;
+   color: #51b7a1;
+   font-size: 12px;
+   font-weight: bold;
+}
+.input .email{
+    margin-bottom: 20px;
+    color: #51b7a1;
+    font-size: 12px;
+    font-weight: bold;
+}
+.input .message{
+    margin-bottom: 10px;
+   color: #51b7a1;
+   font-size: 12px;
+    font-weight: bold;
+}
+.input input{
+   border-color: #5cd2b8;
+   width: 100%;
+   padding: 7px 0 5px;
+   background-color: transparent;
+   border-width: 0.5px;
+}
+.message input{
+    height: 100px;
+}
+.button input{
+    background-color: #5cd2b8;
+    border: none;
+    padding: 10px;
+    width: 320px;
+    color: white;
+    font-weight: bold;
+   
+}
+.right{
+    margin-left: 10px;
+   /* margin-bottom: 170px;*/
+    color: white;
+    position: relative;
+}
+.text h4{
+    color: #51b7a1;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+.text .title{
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    word-spacing: 2px;
+}
+.title .touch{
+    margin-left: 10px;
+    color: #51b7a1;
+}
+.text hr{
+    margin: 10px 0 15px;
+    border: 1px solid #51b7a1;
+    width: 70px;
+}
+.text .p{
+    font-size: 14px;
+    color: rgb(120,124,124,0.8);
+    margin-bottom: 15px;
+}
+.son{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.son .icon{
+    font-size: 25px;
+    color: #51b7a1;
+    margin-right: 10px;
+}
+.words{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.words h1{
+    font-size: 17px;
+    color: white;
+}
+.words p{
+    color: #51b7a1;
+    font-size: 12px;
+}
+.sec2{
+    background-image:linear-gradient(to right ,black ,black,rgb(18, 59, 53) , black,black) ;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    padding-top: 0 ;
+    padding-bottom: 0;    
+}
+.finish{
+    
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+.criativo h1{
+    font-size: 30px;
+    color: #5cd2b8;
+    text-align: center;
+}
+.criativo p{
+    color: white;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0 250px;
+}
+.list h1{
+    font-size: 12px;
+    color: #51b7a1;
+}
+.p2{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.icons i{
+    color:#5cd2b8;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.pcon{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.pcon p{
+    font-size: 10px;
+    color: white;
+}
+.pcon i{
+    font-size: 10px;
+    color: white;
+}

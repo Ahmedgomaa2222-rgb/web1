@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+ .first{
+    height: 100px;
+    margin-top: 45px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.first h4{
+    margin: 10px;
+    padding-top: 10px;
+    font-size: 10px;
+    color:rgb(85,193,169);
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+.first .first1{
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+}
+.first1 .h{
+    color: #5cd2b8;
+    margin-left: 15px;
+}
+.first hr{
+    border: 1px solid rgb(92,210,184) ;
+    width: 60px;
+    margin-top: 10px;
+    position: sticky;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+.first .p{
+margin-top: 15px;
+}
+.first p{
+    font-size: 12px;
+    color: rgb(108,108,108);
+    margin-bottom: 8px;
+}
+.container{
+  margin-left: 350px;
+    width: 890px;
+    padding: 50px;
+    height: 1100;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.container img{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.end{
+    background-color: black;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 520px;
+    
+}
+.end::before{
+    content: "";
+    margin-top: 1025px;
+    width: 100%;
+    height: 520px;
+    background-image: url(adadad.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.3;
+  
+}
+.text{
+    margin-right: 50px;
+   color: white;
+   position: relative;
+}
+.text .title{
+    font-size: 14px;
+    color: rgb(82,187,164);
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+.text .h{
+    display: flex;
+    font-size: 30px;
+}
+.h .A{
+    color: #5cd2b8;
+    margin: 0 6px 0;
+}
+.text hr{
+    border: 2px solid #5cd2b8;
+    width: 15%;
+}
+.text .p {
+    font-size: 12px;
+    color:#616161 ;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.text button{
+    background-color: #5cd2b8;
+    border: none;
+    color: white;
+    padding: 15px 10px;
+    word-spacing: 3px;
+}
+.the-end{
+   background-color: rgb(20,20,20,0.8) ;
+    padding: 30px;
+    width: 450px;
+    height: 200px;
+    position: relative;
+}
+.the-end .p{
+    color:#616161 ;
+    margin-bottom: 20px;
+}
+.the-end p{
+    margin-bottom: 5px;
+font-size: 12px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.profile .img1{
+    display: flex;
+    align-items: center;
+}
+.profile img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+.profile h1{
+    font-size: 15px;
+}
+.profile p{
+    font-size: 12px;
+    color:#4fb69f ;
+    margin-top: 10px;
+}
+.profile .icon img{
+  width: 45px;
+  height: 45px;  
+  margin-top: 30px;
+}
